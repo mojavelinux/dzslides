@@ -1,0 +1,1 @@
+call groovy slides2png.groovy %1
