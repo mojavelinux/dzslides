@@ -147,6 +147,7 @@ section.intro h2 strong {
 
 section.terminal pre.literal {
   color: #D5EE5E;
+  font-size: .75em;
 }
 
 section.secret {
@@ -598,7 +599,7 @@ section.source div.title {
 
 section pre code {
   font-family: "DejaVu Sans Mono", "Droid Sans Mono", Menlo, Monaco, "Courier New", monospace;
-  font-size: 1em;
+  font-size: .9em;
   line-height: 1.2;
   background: rgba(255,255,255,.075);
   border: 1px solid rgba(255,255,255,.2);
@@ -637,6 +638,13 @@ img.corner {
   position: absolute;
   right: 2em;
   bottom: 2em;
+}
+
+img.top.corner {
+  position: absolute;
+  right: 2em;
+  bottom: auto;
+  top: 2em;
 }
 
 img.stretch-x {
